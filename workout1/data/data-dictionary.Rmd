@@ -1,0 +1,22 @@
+---
+title: "Data Dictionary"
+output: github_document
+---
+
+| Variable             | Name of Variable | Type      | Short Description |
+|----------------------|:----------------:|:---------:|------------------:|
+| Team Name            | team_name        | Character | Name of the team that the player plays for |
+| Game Date            | game_date        | Real      | The date of the game in which the player made the corresponding shot |
+| Season               | season           | Real      | The year that these games were played in |
+| Period               | period           | Real      | An NBA game is divided into 4 periods of 12 minutes each, so period 1 = first 12 min, period 2 = next 12 min, etc |
+| Minutes Remaining    | minutes_remaining| Real      | Amount of time (in minutes) left to be played in the given period
+| Seconds Remaining    | seconds_remaining| Real      | Amount of corresponding seconds left to be played in the given period |
+| Shot                 | shot_made_flg    | Logical   | Indicates whether the shot was made (Y) or missed (N) |
+| Type of Action       | action_type      | Character | Type of basketball move attempted by the player |
+| Type of Shot         | shot_type        | Character | Indicates whether was a 2 or 3-point field goal |
+| Distance of the Shot | shot_distance    | Real      | Measures the distance to the basket (in feet) |
+| Opponent             | opponent         | Character | The team that the player was playing against while taking that specific shot |
+| Court Coordinates    | x                | Real      | Court coordinates (in inches) where a shot occurred |
+| Court Coordinates    | y                | Real      | Court coordinates (in inches) where a short occurred |
+
+
