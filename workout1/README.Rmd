@@ -1,9 +1,0 @@
----
-title: "Read Me"
-author: "Michelle Jang"
-date: "3/6/2019"
-output: github_document
----
-
-
-
